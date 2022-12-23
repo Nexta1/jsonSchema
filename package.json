@@ -11,7 +11,9 @@
     "babel-preset-es2015": "^6.24.1",
     "core-js": "^3.8.3",
     "element-ui": "^2.15.12",
-    "json-schema-editor-vue": "^2.1.2",
+    "express": "^4.18.2",
+    "generate-schema": "^2.6.0",
+    "install": "^0.13.0",
     "lodash": "^4.17.21",
     "vue": "^2.6.14"
   },
