@@ -1073,6 +1073,11 @@
   "resolved" "https://registry.npmmirror.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz"
   "version" "2.0.4"
 
+"@nexta1/json-schema@^1.0.0":
+  "integrity" "sha512-baidQmDidMAqeRqWSef4zf9P5Hls4YVtWWkHZ+tJ9/gGZoE6KoWaspzeBDFkes1mIjnoqc8nOJX+Zet6N92cag=="
+  "resolved" "https://registry.npmjs.org/@nexta1/json-schema/-/json-schema-1.0.0.tgz"
+  "version" "1.0.0"
+
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   "integrity" "sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg=="
   "resolved" "https://registry.npmmirror.com/@nicolo-ribaudo/eslint-scope-5-internals/-/eslint-scope-5-internals-5.1.1-v1.tgz"

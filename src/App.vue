@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import JsonSchema from "@/components/json-schema.vue";
+
 export default {
-  components:{JsonSchema},
+
   data(){
     return{
       value:{
@@ -39,6 +39,14 @@ export default {
         },
       },
       tree:{}
+    }
+  },
+  watch:{
+    value:{
+      handler:function (a){
+        console.log(a)
+      },
+      deep:true
     }
   }
 }

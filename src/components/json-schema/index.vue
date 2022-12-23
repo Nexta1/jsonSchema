@@ -151,8 +151,8 @@
 </template>
 
 <script>
-import { TYPE_NAME, TYPE } from "@/components/type/type";
-import { isNull } from "@/components/utils";
+import { TYPE_NAME, TYPE } from "@/components/json-schema/type/type";
+import { isNull } from "@/components/json-schema/utils";
 
 export default {
   name: "JsonSchema",
@@ -368,7 +368,7 @@ export default {
 .input:disabled{
   background: #F5F7FA;
   cursor: not-allowed;
-
+  color: #C0C4CC;
 }
 .textarea {
   border: 1px solid #dcdfe6;
@@ -447,11 +447,10 @@ export default {
 .label input[type="checkbox"]:checked + .check::after {
   transform: rotate(45deg) scaleY(1);
 }
-.label input[type="checkbox"]:disabled + .check::after {
-  transform: rotate(45deg) scaleY(1);
-}
+
 .label input[type="checkbox"]:disabled + .check {
   cursor: not-allowed;
   color: #c0c4cc;
+  background-color: #edf2fc;
 }
 </style>

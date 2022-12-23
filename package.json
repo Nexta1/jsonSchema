@@ -1,13 +1,14 @@
 {
   "name": "json",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib src/components/index.js --name json-schema  "
   },
   "dependencies": {
+    "@nexta1/json-schema": "^1.0.0",
     "babel-preset-es2015": "^6.24.1",
     "core-js": "^3.8.3",
     "element-ui": "^2.15.12",
